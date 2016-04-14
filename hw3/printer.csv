@@ -1,8 +1,8 @@
 model|color|type|price
-3001|true|ink-jet|99
-3002|false|laser|239
-3003|true|laser|899
-3004|true|ink-jet|120
-3005|false|laser|120
-3006|true|ink-jet|100
-3007|true|laser|200
+3001|1|ink-jet|99
+3002|0|laser|239
+3003|1|laser|899
+3004|1|ink-jet|120
+3005|0|laser|120
+3006|1|ink-jet|100
+3007|1|laser|200
