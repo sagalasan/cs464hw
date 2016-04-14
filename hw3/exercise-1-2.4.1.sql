@@ -7,7 +7,7 @@ DROP TABLE IF EXISTS hw3_printer;
 
 CREATE TABLE hw3_product
 (
-  maker VARCHAR(1),
+  maker VARCHAR(20),
   model INTEGER,
   type VARCHAR(20),
   PRIMARY KEY(maker, model, type)
@@ -37,7 +37,7 @@ CREATE TABLE hw3_laptop
 CREATE TABLE hw3_printer
 (
   model INTEGER,
-  color VARCHAR(20),
+  color BOOLEAN,
   type VARCHAR(20),
   price INTEGER,
   PRIMARY KEY(model)
